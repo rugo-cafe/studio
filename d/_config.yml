@@ -23,7 +23,7 @@ email: vitorhug.cunha@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is my personal website, here you can see some of my projects as an aspiring Web Developer & Designer! :)
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://vitorhcunha.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://vitorhcunha.me/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  rugo-cafe
 
