@@ -1,0 +1,81 @@
+body{
+    background-color: #320E3B;
+    font-family: Fira Code, Monaco;
+}
+
+/* .main-title{
+    font-size: 1.5em;
+    padding: right;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    color: #E0FBFC;
+    float: left;
+    font-weight: 500;
+  } */
+
+.main-title{
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    float: left;
+    padding: right;
+    position: relative;
+    display: inline-block;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    color: #E0FBFC;
+    min-width: 12.5em;
+}
+  
+.main-title::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -0.05em;
+    /* Remove display: inline-block if not required to be on the same line as text etc */
+    display: inline-block;
+    background-color: #e0fbfc6b;
+    vertical-align: top;
+    width: 0.625em;
+    /* Set height to the line height of .text */
+    height: 1.5em;
+    /* 
+    Animation paramaters:
+    blink = animation-name, 
+    1s = animation-duration, 
+    step-end = animation-timing-function,
+    infinite = animation-iteration-count
+    */
+    -webkit-animation: blink 1s step-end infinite;
+    animation: blink 1s step-end infinite;
+  }
+  
+  @-webkit-keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+
+.github-icon{
+    width: 1.8em;
+}
+
+.linkedin-icon{
+    width: 1.8em;
+    padding-left: 0.5em;
+}
+
+.navbar-icons{
+    float: right;
+    margin-top: 0.5em;
+    margin-right: 1.5em;
+}
+
+title{
+
+}
