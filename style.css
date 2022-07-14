@@ -1,5 +1,7 @@
 body{
-    background-color: #320E3B;
+    background: rgb(27,0,36);
+    background: linear-gradient(167deg, rgba(27,0,36,1) 0%, rgba(25,0,71,1) 35%, rgba(136,0,255,1) 100%);
+    background-attachment: fixed; 
     font-family: Fira Code, Monaco;
 }
 
