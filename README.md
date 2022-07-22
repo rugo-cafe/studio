@@ -1,4 +1,4 @@
-# studio
+# ~ > /home/rugo-cafe
 Esse repositório é o código fonte do meu Website pessoal.
 
 https://vitorhcunha.me
